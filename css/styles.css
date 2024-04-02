@@ -37,3 +37,7 @@ body {
     margin: 20px;
   }
 }
+
+span {
+  color: blue;
+}
