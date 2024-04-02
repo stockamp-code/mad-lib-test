@@ -5,3 +5,34 @@
 h1 {
   color: blue;
 }
+
+form {
+  display: grid;
+  padding: 10px;
+  background-color: beige;
+  max-width: 300px;
+}
+
+label {
+  font-weight: 600;
+  font-size: .8em;
+  color: #525252;
+}
+
+input {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+body {
+  margin: 20px;
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 768px){
+  body {
+    margin: 20px;
+  }
+}
